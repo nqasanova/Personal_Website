@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/qa.css">
+    <title>Questionnaire</title>
+</head>
+<body>
+    <nav>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
+        <li><a class="active" href="qa.html">Questionnaire</a></li>
+        <li><a href="card.html">Digital Card</a></li>
+        <li><a href="https://github.com/nqasanova" target="_blank">My Github</a></li>
+        <li><a href="" target="_blank">Live Page</a></li>
+    </nav>
+    <h1>Questionnaire</h1>
+    <p id="questionnaire">Please fill out this Questionnaire:</p>
+    <form action="process.php" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="0" required><br>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br>
+
+        <label for="languages">Which of the following programming languages do you know?</label><br>
+        <label>
+            <input type="checkbox" id="java" name="languages[]" value="Java">
+            Java
+        </label>
+        <label>
+            <input type="checkbox" id="python" name="languages[]" value="Python">
+            Python
+        </label>
+        <label>
+            <input type="checkbox" id="javascript" name="languages[]" value="JavaScript">
+            JavaScript
+        </label><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
