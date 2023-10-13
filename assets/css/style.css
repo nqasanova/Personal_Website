@@ -1,0 +1,118 @@
+body {
+  background: url(https://wallpapers.com/images/hd/calm-sea-waves-mac-mdacnkt7cg2k7dgq.jpg) no-repeat center center fixed;
+  background-size: 1441px 850px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.42857143;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display:flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100vw; 
+  height: 60px;
+  margin: 0;
+  list-style-type: none;
+  background-color: #499bb3;
+  padding: 0;
+}
+
+nav li {
+  background-color: #499bb3;
+  float: left;
+  margin-top: 5px;
+}
+
+nav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover:not(.active) {
+  background-color: #499bb3;
+  color: #fff
+}
+
+nav a.active {
+  color: white;
+}
+
+.active {
+  background-color: #499bb3;
+}
+
+hr {
+    width: 70%;
+    position: relative;
+    border: none;
+    height: 12px;
+    padding-bottom: 10px;
+    border-top: dotted 5px
+}
+
+table {
+  padding-top: 40px;
+}
+
+table img {
+  margin-top: 30px;
+  margin-left: 270px;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+}
+
+table img:hover {
+  transform: scale(1.1);
+}
+table #info {
+    padding-left: 470px;
+    font-weight: bold;
+}
+
+.about {
+    text-align: center;
+}
+
+.about p {
+  margin-bottom: 35px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.skills h2{
+    text-align: center;
+}
+
+.skills table {
+    margin-left: 615px;
+    margin-bottom: 35px;
+}
+
+.skills td{
+  color: #fff;
+}
+
+.information h2, ul li{
+    list-style-type: none;
+    text-align: center;
+}
+
+.information ul {
+  margin-bottom: 35px;
+}
+
+.information li {
+  color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
